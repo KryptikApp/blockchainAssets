@@ -1,0 +1,69 @@
+{
+    "erc20Tokens":[
+        {
+            "name": "Tether",
+            "symbol": "USDT",
+            "decimals": 6,
+            "chainData":[{
+                "chainId": 1,
+                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            }],
+            "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707",
+            "extensions": {
+               "link": "https://tether.to/",
+               "description": "Tether (USDT) is a cryptocurrency with a value meant to mirror the value of the U.S. dollar. The idea was to create a stable cryptocurrency that can be used like digital dollars. Coins that serve this purpose of being a stable dollar substitute are called “stable coins.” Tether is the most popular stable coin and even acts as a dollar replacement on many popular exchanges! According to their site, Tether converts cash into digital currency, to anchor or “tether” the value of the coin to the price of national currencies like the US dollar, the Euro, and the Yen. Like other cryptos it uses blockchain."
+            },
+            "tags":[
+                "stablecoin"
+            ]
+        },
+        {
+            "chainData":[{
+                "chainId": 1,
+                "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+            }],
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389",
+            "extensions": {
+                "link": "https://www.circle.com/en/usdc",
+                "description": "USDC is a fully collateralized US dollar stablecoin. USDC is the bridge between dollars and trading on cryptocurrency exchanges. The technology behind CENTRE makes it possible to exchange value between people, businesses and financial institutions just like email between mail services and texts between SMS providers. We believe by removing artificial economic borders, we can create a more inclusive global economy. "
+            },
+            "tags":[
+                "stablecoin"
+            ]
+        },
+        {
+            "chainData":[{
+                "chainId": 1,
+                "address": "0x89d24a6b4ccb1b6faa2625fe562bdd9a23260359"
+            }],
+            "name": "DAI Stablecoin",
+            "symbol": "SAI",
+            "decimals": 18,
+            "logoURI": "https://assets.coingecko.com/coins/images/1442/large/dai.png?1547035520",
+            "extensions": {
+              "link": "https://makerdao.com/",
+              "description": "Dai is a stablecoin. It is an Ethereum ERC20 token that is pegged to $1 USD — every Dai is worth $1, and will always be worth $1, regardless of how much Dai is in existence. There is no centralized authority like Tether that backs its value, and no traditional bank that backs each Dai with a real US dollar. There is nothing that can be shut down, and no centralized authority that needs to be trusted. Dai lives entirely within the Ethereum blockchain using smart contracts."
+            },
+            "tags":[
+                "stablecoin"
+            ]
+        },
+        {
+            "chainData":[{
+                "chainId": 1,
+                "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd"
+            }],
+            "name": "Gemini Dollar",
+            "symbol": "GUSD",
+            "decimals": 2,
+            "logoURI": "https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278",
+            "extensions": {
+              "link": "https://gemini.com/dollar/",
+              "description": "The Gemini dollar — the world’s first regulated stablecoin — combines the creditworthiness and price stability of the U.S. dollar with blockchain technology and the oversight of U.S. regulators. The Gemini dollar is a cryptographic token built on the Ethereum Network according to the ERC20 standard for token."
+            }
+        }
+    ]
+}
