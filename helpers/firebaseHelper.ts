@@ -1,8 +1,8 @@
 import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
-import { doc, DocumentData, DocumentReference, getFirestore, setDoc} from 'firebase/firestore';
+import { collection, doc, DocumentData, DocumentReference, getDocs, getFirestore, setDoc} from 'firebase/firestore';
 import { firebaseConfig } from "../secrets";
-import { ERC20Data } from "../models";
+import { ERC20Data, NetworkDb } from "../models";
 // set your own firebase secrets to access db
 
 
@@ -19,4 +19,19 @@ export  {
 
 export const generateDocErc20 = function(erc20Data:ERC20Data):DocumentReference<DocumentData>{
   return doc(firestore, "erc20tokens", erc20Data.symbol);
+}
+
+export const generateDocNetwork = function(networkData:NetworkDb){
+  return doc(firestore, "networks", networkData.ticker);
+}
+
+// console logs all data from collection
+// useful for copying and pasting into a json file
+export const printCollection = async function(collectionName:string){
+    const querySnapshot = await getDocs(collection(firestore, collectionName));
+    const dataJSONArray = [];
+    querySnapshot.forEach((doc) => {
+      dataJSONArray.push(doc.data());
+    });
+    console.log(dataJSONArray);
 }
