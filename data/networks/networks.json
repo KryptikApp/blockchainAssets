@@ -109,7 +109,7 @@
         },
         {
           "about": "Ropsten Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
-          "chainId": 1,
+          "chainId": 60,
           "chainIdEVM": 3,
           "coingeckoId": "ethereum",
           "fullName": "Ropsten Ethereum",
