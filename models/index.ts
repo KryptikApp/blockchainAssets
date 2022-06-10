@@ -1,13 +1,13 @@
 export interface ChainData{
     chainId: number,
+    ticker:string,
     address: string
 }
 
 export interface ERC20Data{
-    chainId: number,
-    address: string,
     name: string,
     symbol: string,
+    coingeckoId: string,
     decimals: number,
     chainData: ChainData[],
     logoURI: string,
