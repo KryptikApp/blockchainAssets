@@ -128,7 +128,7 @@
             "coingeckoId": "ethereum",
             "fullName": "Arbitrum Ethereum",
             "hexColor": "#3c3c3d",
-            "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
+            "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/arbitrum.png?alt=media&token=b27a2b99-411b-447c-a343-a79c447de5a9",
             "isSupported": true,
             "networkFamilyName": "evm",
             "ticker": "eth(arbitrum)",
