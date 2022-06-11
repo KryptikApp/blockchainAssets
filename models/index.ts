@@ -33,6 +33,7 @@ export interface NetworkDb{
     networkFamilyName:string,
     coingeckoId:string
     isTestnet: boolean
+    blockExplorerURL:string
 }
 
 export interface NetworkSecretParameters{
