@@ -14,6 +14,7 @@
         },
         {
           "about": "Avalanche is a decentralized, open-source proof of stake blockchain with smart contract functionality. AVAX is the native cryptocurrency of the platform.", 
+          "blockExplorerURL": "https://snowtrace.io/",
           "chainId": 9000,
           "chainIdEVM": 43114,
           "coingeckoId": "avalanche-2",
@@ -72,6 +73,7 @@
         },
         {
           "about": "Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.",
+          "blockExplorerURL": "https://etherscan.io/",
           "chainId": 60,
           "chainIdEVM": 1,
           "coingeckoId": "ethereum",
@@ -96,6 +98,7 @@
         },
         {
           "about": "Polygon is a secondary scaling solution for the Ethereum blockchain. MATIC is an Ethereum token that powers the Polygon network.",
+          "blockExplorerURL": "https://polygonscan.com/",
           "chainId": 966,
           "chainIdEVM": 137,
           "coingeckoId": "matic-network",
@@ -109,6 +112,7 @@
         },
         {
           "about": "Ropsten Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
+          "blockExplorerURL": "https://ropsten.etherscan.io/",
           "chainId": 60,
           "chainIdEVM": 3,
           "coingeckoId": "ethereum",
@@ -123,6 +127,7 @@
         },
         {
             "about": "Arbitrum allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Arbitrum second layer chain.",
+            "blockExplorerURL": "https://arbiscan.io/",
             "chainId": 60,
             "chainIdEVM": 42161,
             "coingeckoId": "ethereum",
@@ -136,6 +141,7 @@
         },
         {
           "about": "Solana is a decentralized blockchain built to enable scalable, user-friendly apps for the world.",
+          "blockExplorerURL": "https://solscan.io/",
           "chainId": 501,
           "coingeckoId": "solana",
           "fullName": "Solana",
