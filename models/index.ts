@@ -4,7 +4,7 @@ export interface ChainData{
     address: string
 }
 
-export interface ERC20Data{
+export interface TokenData{
     name: string,
     symbol: string,
     coingeckoId: string,
@@ -17,6 +17,7 @@ export interface ERC20Data{
     },
     tags:string[]
 }
+
 
 export interface NetworkDb{
     fullName: string,
