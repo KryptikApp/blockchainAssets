@@ -1,0 +1,24 @@
+{
+    "splAssets":[
+        {
+            "name": "Marinade Staked SOL",
+            "symbol": "MSOL",
+            "coingeckoId": "msol",
+            "decimals": 9,
+            "chainData":[{
+                "chainId": 1,
+                "ticker": "sol",
+                "address": "mSoLzYCxHdYgdzU16g5QSh3i5K3z3KZK7ytfqcJm7So"
+            }],
+            "logoURI": "https://assets.coingecko.com/coins/images/17752/large/mSOL.png?1644541955",
+            "extensions": {
+               "link": "https://marinade.finance/",
+               "description": "Marinade is the first non-custodial liquid staking protocol built on the Solana blockchain. Holders of mSOL tokens earn yield on their staked SOL."
+            },
+            "tags":[
+                "yield",
+                "stake"
+            ]
+        }
+    ]
+}
