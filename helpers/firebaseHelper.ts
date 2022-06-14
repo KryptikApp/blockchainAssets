@@ -2,7 +2,7 @@ import { initializeApp } from "firebase/app";
 import { getStorage } from "firebase/storage";
 import { collection, doc, DocumentData, DocumentReference, getDocs, getFirestore, setDoc} from 'firebase/firestore';
 import { firebaseConfig } from "../secrets";
-import { ERC20Data, NetworkDb } from "../models";
+import { NetworkDb, TokenData } from "../models";
 // set your own firebase secrets to access db
 
 
@@ -17,8 +17,12 @@ export  {
 };
 
 
-export const generateDocErc20 = function(erc20Data:ERC20Data):DocumentReference<DocumentData>{
+export const generateDocErc20 = function(erc20Data:TokenData):DocumentReference<DocumentData>{
   return doc(firestore, "erc20tokens", erc20Data.symbol);
+}
+
+export const generateDocSpl = function(splData:TokenData):DocumentReference<DocumentData>{
+  return doc(firestore, "splAssets", splData.symbol);
 }
 
 export const generateDocNetwork = function(networkData:NetworkDb){
