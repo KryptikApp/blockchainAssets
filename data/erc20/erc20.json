@@ -5,6 +5,7 @@
             "symbol": "USDT",
             "coingeckoId": "tether",
             "decimals": 6,
+            "hexColor": "#50AF95",
             "chainData":[{
                 "chainId": 1,
                 "ticker": "eth",
@@ -20,15 +21,16 @@
             ]
         },
         {
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "coingeckoId": "usd-coin",
+            "decimals": 6,
+            "hexColor": "#2775CA",
             "chainData":[{
                 "chainId": 1,
                 "ticker": "eth",
                 "address": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
             }],
-            "name": "USD Coin",
-            "symbol": "USDC",
-            "coingeckoId": "usd-coin",
-            "decimals": 6,
             "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389",
             "extensions": {
                 "link": "https://www.circle.com/en/usdc",
@@ -39,15 +41,16 @@
             ]
         },
         {
+            "name": "Defi Pulse Index",
+            "symbol": "DPI",
+            "coingeckoId": "defipulse-index",
+            "decimals": 18,
+            "hexColor": "#a834eb",
             "chainData":[{
                 "chainId": 1,
                 "ticker": "eth",
                 "address": "0x1494CA1F11D487c2bBe4543E90080AeBa4BA3C2b"
             }],
-            "name": "Defi Pulse Index",
-            "symbol": "DPI",
-            "coingeckoId": "defipulse-index",
-            "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/12465/large/defi_pulse_index_set.png?1600051053",
             "extensions": {
                 "link": "https://indexcoop.com/defi-pulse-index-dpi",
@@ -58,6 +61,11 @@
             ]
         },
         {
+            "name": "DAI Stablecoin",
+            "coingeckoId": "dai",
+            "symbol": "dai",
+            "decimals": 18,
+            "hexColor": "ffce45",
             "chainData":[{
                 "chainId": 1,
                 "ticker": "eth",
@@ -68,10 +76,6 @@
                 "ticker": "eth(arbitrum)",
                 "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
             }],
-            "name": "DAI Stablecoin",
-            "coingeckoId": "dai",
-            "symbol": "dai",
-            "decimals": 18,
             "logoURI": "https://assets.coingecko.com/coins/images/9956/large/4943.png?1636636734",
             "extensions": {
               "link": "https://makerdao.com/",
@@ -82,14 +86,15 @@
             ]
         },
         {
+            "name": "Gemini Dollar",
+            "symbol": "GUSD",
+            "decimals": 2,
+            "hexColor": "#00dcfa",
             "chainData":[{
                 "chainId": 1,
                 "ticker": "eth",
                 "address": "0x056fd409e1d7a124bd7017459dfea2f387b6d5cd"
             }],
-            "name": "Gemini Dollar",
-            "symbol": "GUSD",
-            "decimals": 2,
             "coingeckoId": "gemini-dollar",
             "logoURI": "https://assets.coingecko.com/coins/images/5992/large/gemini-dollar-gusd.png?1536745278",
             "extensions": {
