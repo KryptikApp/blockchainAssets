@@ -151,6 +151,34 @@
           "networkFamilyName": "solana",
           "ticker": "sol",
           "whitePaperPath": "https://solana.com/solana-whitepaper.pdf"
+        },
+        {
+          "about": "Solana Devnet is a playground for Solana developers to test applications. Devnet tokens have no value.",
+          "blockExplorerURL": "https://explorer.solana.com/",
+          "chainId": 501,
+          "coingeckoId": "solana",
+          "fullName": "Solana Devnet",
+          "hexColor": "#DC1FFF",
+          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/sol.png?alt=media&token=6d6e8337-79bb-45c6-bb31-47e49c7ce763",
+          "isSupported": true,
+          "isTestnet": true,
+          "networkFamilyName": "solana",
+          "ticker": "sol(devnet)",
+          "whitePaperPath": "https://solana.com/solana-whitepaper.pdf"
+        },
+        {
+          "about": "Solana Testnet is a testing platform for modifications to the main Solana blockchain. Testnet tokens have no value.",
+          "blockExplorerURL": "https://explorer.solana.com/",
+          "chainId": 501,
+          "coingeckoId": "solana",
+          "fullName": "Solana Testnet",
+          "hexColor": "#DC1FFF",
+          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/sol.png?alt=media&token=6d6e8337-79bb-45c6-bb31-47e49c7ce763",
+          "isSupported": true,
+          "isTestnet": true,
+          "networkFamilyName": "solana",
+          "ticker": "sol(testnet)",
+          "whitePaperPath": "https://solana.com/solana-whitepaper.pdf"
         }
       ]
 }
