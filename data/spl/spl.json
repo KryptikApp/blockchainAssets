@@ -4,6 +4,7 @@
             "name": "Marinade Staked SOL",
             "symbol": "MSOL",
             "coingeckoId": "msol",
+            "hexColor": "#73eb9f",
             "decimals": 9,
             "chainData":[{
                 "chainId": 1,
@@ -18,6 +19,31 @@
             "tags":[
                 "yield",
                 "stake"
+            ]
+        },
+        {
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "coingeckoId": "usd-coin",
+            "decimals": 6,
+            "hexColor": "#2775CA",
+            "chainData":[{
+                "chainId": 1,
+                "ticker": "sol",
+                "address": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+            },
+            {
+                "chainId": 2,
+                "ticker": "sol(devnet)",
+                "address": "4zMMC9srt5Ri5X14GAgXhaHii3GnPAEERYPJgZJDncDU"
+            }],
+            "logoURI": "https://assets.coingecko.com/coins/images/6319/large/USD_Coin_icon.png?1547042389",
+            "extensions": {
+                "link": "https://www.circle.com/en/usdc",
+                "description": "USDC is a fully collateralized US dollar stablecoin. USDC is the bridge between dollars and trading on cryptocurrency exchanges. The technology behind CENTRE makes it possible to exchange value between people, businesses and financial institutions just like email between mail services and texts between SMS providers. We believe by removing artificial economic borders, we can create a more inclusive global economy. "
+            },
+            "tags":[
+                "stablecoin"
             ]
         }
     ]
