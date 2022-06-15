@@ -22,7 +22,7 @@ export const generateDocErc20 = function(erc20Data:TokenData):DocumentReference<
 }
 
 export const generateDocSpl = function(splData:TokenData):DocumentReference<DocumentData>{
-  return doc(firestore, "splAssets", splData.symbol);
+  return doc(firestore, "spltokens", splData.symbol);
 }
 
 export const generateDocNetwork = function(networkData:NetworkDb){
