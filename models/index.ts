@@ -9,6 +9,7 @@ export interface TokenData{
     symbol: string,
     coingeckoId: string,
     decimals: number,
+    hexColor: string,
     chainData: ChainData[],
     logoURI: string,
     extensions: {
