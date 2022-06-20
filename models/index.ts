@@ -29,6 +29,7 @@ export interface NetworkDb{
     whitePaperPath: string,
     chainId: number,
     chainIdEVM: number,
+    decimals: number,
     hexColor: string,
     dateCreated: Date,
     provider:string,
