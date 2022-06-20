@@ -109,7 +109,7 @@
           "blockExplorerURL": "https://explorer.mainnet.near.org/",
           "chainId": 397,
           "coingeckoId": "near",
-          "decimals": 18,
+          "decimals": 24,
           "fullName": "Near Protocol",
           "hexColor": "#262626",
           "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/near.png?alt=media&token=f2403b2b-d809-4fc7-9956-9941d92efecb",
