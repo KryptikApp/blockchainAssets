@@ -21,6 +21,10 @@ export const generateDocErc20 = function(erc20Data:TokenData):DocumentReference<
   return doc(firestore, "erc20tokens", erc20Data.symbol);
 }
 
+export const generateDocNep141 = function(nep141Data:TokenData):DocumentReference<DocumentData>{
+  return doc(firestore, "nep141tokens", nep141Data.symbol);
+}
+
 export const generateDocSpl = function(splData:TokenData):DocumentReference<DocumentData>{
   return doc(firestore, "spltokens", splData.symbol);
 }

@@ -1,9 +1,10 @@
 import { setDoc } from "firebase/firestore";
 import erc20Json from "../data/erc20/erc20.json"
 import splJson from "../data/spl/spl.json"
+import nep141Json from "../data/nep141/nep141.json"
 import networkJson from "../data/networks/networks.json"
 import { NetworkDb, TokenData} from "../models";
-import { generateDocErc20, generateDocNetwork, generateDocSpl } from "./firebaseHelper";
+import { generateDocErc20, generateDocNep141, generateDocNetwork, generateDocSpl } from "./firebaseHelper";
 import { addNetworkSecretData } from "./utils";
 
 
@@ -24,6 +25,16 @@ export const uploadSplData = async function(){
         let docToWrite = generateDocSpl(splData);
         await setDoc(docToWrite, splData);
         console.log(`${splData.symbol} upload complete`);
+    }
+}
+
+export const uploadNep141Data = async function(){
+    let splDataArray:{nep141Assets: TokenData[]} = JSON.parse(JSON.stringify(nep141Json));
+    for(const nep141Data of splDataArray.nep141Assets){
+        console.log(`Uploading spl data for ${nep141Data.name}...`);
+        let docToWrite = generateDocNep141(nep141Data);
+        await setDoc(docToWrite, nep141Data);
+        console.log(`${nep141Data.symbol} upload complete`);
     }
 }
 
