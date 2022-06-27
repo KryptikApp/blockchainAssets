@@ -146,7 +146,7 @@
           "isTestnet": true,
           "isSupported": true,
           "networkFamilyName": "evm",
-          "ticker": "eth(rop.)",
+          "ticker": "eth(ropsten)",
           "whitePaperPath": "https://ethereum.org/en/whitepaper/"
         },
         {
