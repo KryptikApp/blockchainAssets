@@ -1,6 +1,31 @@
 {
     "nep141Assets":[
         {
+            "name": "DAI Stablecoin",
+            "coingeckoId": "dai",
+            "symbol": "dai",
+            "decimals": 18,
+            "hexColor": "#ffce45",
+            "chainData":[{
+                "chainId": 1,
+                "ticker": "eth",
+                "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+            },
+            {
+                "chainId": 42161,
+                "ticker": "eth(arbitrum)",
+                "address": "0xda10009cbd5d07dd0cecc66161fc93d7c9000da1"
+            }],
+            "logoURI": "https://assets.coingecko.com/coins/images/9956/large/4943.png?1636636734",
+            "extensions": {
+              "link": "https://makerdao.com",
+              "description": "Dai is a stablecoin. It is an Ethereum ERC20 token that is pegged to $1 USD— every Dai is worth $1, and will always be worth $1, regardless of how much Dai is in existence. There is no centralized authority like Tether that backs its value, and no traditional bank that backs each Dai with a real US dollar. There is nothing that can be shut down, and no centralized authority that needs to be trusted. Dai lives entirely within the Ethereum blockchain using smart contracts."
+            },
+            "tags":[
+                "stablecoin"
+            ]
+        },
+        {
             "name": "USD Coin",
             "symbol": "USDC",
             "coingeckoId": "usd-coin",
@@ -15,6 +40,26 @@
             "extensions": {
                 "link": "https://www.circle.com/en/usdc",
                 "description": "Known as a fully-reserved stablecoin, every digital dollar of USDC on the internet is 100% backed by cash and short-dated U.S. treasuries, so that it’s always redeemable 1:1 for U.S. dollars."
+            },
+            "tags":[
+                "stablecoin"
+            ]
+        },
+        {
+            "name": "Tether",
+            "symbol": "USDT",
+            "coingeckoId": "tether",
+            "decimals": 6,
+            "hexColor": "#50AF95",
+            "chainData":[{
+                "chainId": 1,
+                "ticker": "eth",
+                "address": "0xdac17f958d2ee523a2206206994597c13d831ec7"
+            }],
+            "logoURI": "https://assets.coingecko.com/coins/images/325/large/Tether-logo.png?1598003707",
+            "extensions": {
+               "link": "https://tether.to",
+               "description": "Tether (USDT) is a cryptocurrency with a value meant to mirror the value of the U.S. dollar. The idea was to create a stable cryptocurrency that can be used like digital dollars. Coins that serve this purpose of being a stable dollar substitute are called “stable coins.” Tether is the most popular stable coin and even acts as a dollar replacement on many popular exchanges! According to their site, Tether converts cash into digital currency, to anchor or “tether” the value of the coin to the price of national currencies like the US dollar, the Euro, and the Yen. Like other cryptos it uses blockchain."
             },
             "tags":[
                 "stablecoin"
