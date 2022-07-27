@@ -33,6 +33,10 @@ export const generateDocNetwork = function(networkData:NetworkDb){
   return doc(firestore, "networks", networkData.ticker);
 }
 
+export const generateDocToken = function(tokenData:TokenData):DocumentReference<DocumentData>{
+  return doc(firestore, "tokens", tokenData.symbol);
+}
+
 // console logs all data from collection
 // useful for copying and pasting into a json file
 export const printCollection = async function(collectionName:string){

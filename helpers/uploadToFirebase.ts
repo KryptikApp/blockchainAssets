@@ -3,8 +3,10 @@ import erc20Json from "../data/erc20/erc20.json"
 import splJson from "../data/spl/spl.json"
 import nep141Json from "../data/nep141/nep141.json"
 import networkJson from "../data/networks/networks.json"
+import tokenJson from "../data/tokens/tokens.json"
+
 import { NetworkDb, TokenData} from "../models";
-import { generateDocErc20, generateDocNep141, generateDocNetwork, generateDocSpl } from "./firebaseHelper";
+import { generateDocErc20, generateDocNep141, generateDocNetwork, generateDocSpl, generateDocToken } from "./firebaseHelper";
 import { addNetworkSecretData } from "./utils";
 
 
@@ -46,5 +48,15 @@ export const uploadNetworkData = async function(){
         let docToWrite = generateDocNetwork(networkData);
         await setDoc(docToWrite, networkData);
         console.log(`${networkData.ticker} upload complete`);
+    }
+}
+
+export const uploadAllTokenData = async function(){
+    let tokenDataArray:{tokens: TokenData[]} = JSON.parse(JSON.stringify(tokenJson));
+    for(const tokenData of tokenDataArray.tokens){
+        console.log(`Uploading token data for ${tokenData.name}...`);
+        let docToWrite = generateDocToken(tokenData);
+        await setDoc(docToWrite, tokenData);
+        console.log(`${tokenData.symbol} upload complete`);
     }
 }
