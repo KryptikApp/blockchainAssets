@@ -1,7 +1,7 @@
 # Kryptik Wallet Blockchain Data
 
 ## About
-Kryptik wallet blochain data repository contains comprehensive data on a select set of blockchain assets. There is also support for uploading data to your own firestore database. This can be helpful when creating a blockchain application. 
+The Kryptik blockhain data repository contains comprehensive data on a select set of blockchain assets. There is also support for uploading data to your own firestore database. This can be helpful when creating a blockchain application. 
 
 
 ## Getting Started
@@ -18,17 +18,17 @@ npm install
 
 ```bash
 export const firebaseConfig = {
-    apiKey: {your api key},
-    authDomain: {your authDomain},
-    projectId: {your projectId},
-    storageBucket: {your storage bucket},
-    messagingSenderId: {your messagingSenderId},
-    appId: {your appId},
-    measurementId: {your measurementId}
+    apiKey: "your api key",
+    authDomain: "your authDomain",
+    projectId: "your projectId",
+    storageBucket: "your storage bucket",
+    messagingSenderId: "your messagingSenderId",
+    appId: "your appId",
+    measurementId: "your measurementId"
 };
 
 export const NetworkSecretsDict:{[name: string]: NetworkSecretData}  = {
-    yourTokenTicker: new NetworkSecretData({provider:"yourProviderURL"})
+    "yourTokenTicker": new NetworkSecretData({provider:"yourProviderURL"})
 };
 
 ```
