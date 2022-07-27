@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "upload": "npx ts-node-esm runUploads.ts"
+    "uploadAll": "npx ts-node-esm runUploads.ts",
+    "uploadTokens": "npx ts-node-esm runTokenUploads.ts"
   },
   "dependencies": {
     "firebase": "^9.8.2",

@@ -26,12 +26,23 @@ export const firebaseConfig = {
     appId: {your appId},
     measurementId: {your measurementId}
 };
+
+export const NetworkSecretsDict:{[name: string]: NetworkSecretData}  = {
+    yourTokenTicker: new NetworkSecretData({provider:"yourProviderURL"})
+};
+
 ```
 
 Note: You can find more information about obtaining your firebaseConfig [here](https://firebase.google.com/docs/web/learn-more#config-object).
 
-*Upload* the blockchain asset data to your database:
+*Upload* all blockchain asset data to your database:
 
 ```bash
-yarn upload
+yarn uploadAll
+```
+
+*Upload* token data to your database:
+
+```bash
+yarn uploadTokens
 ```
