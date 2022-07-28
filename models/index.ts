@@ -19,6 +19,10 @@ export interface TokenData{
     tags:string[]
 }
 
+export interface EVMData{
+    chainId: number,
+    zeroXSwapUrl?: string
+}
 
 export interface NetworkDb{
     fullName: string,
@@ -28,7 +32,7 @@ export interface NetworkDb{
     about: string,
     whitePaperPath: string,
     chainId: number,
-    chainIdEVM: number,
+    evmData?: EVMData,
     decimals: number,
     hexColor: string,
     dateCreated: Date,
