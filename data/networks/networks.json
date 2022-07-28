@@ -2,24 +2,14 @@
     "networks":[
         {
           "about": "Avalanche is a decentralized, open-source proof of stake blockchain with smart contract functionality. AVAX is the native cryptocurrency of the platform.", 
-          "chainId": 9000,
-          "coingeckoId": "avalanche-2",
-          "decimals": 18,
-          "fullName": "Avalanche",
-          "hexColor": "e84142",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/avax.png?alt=media&token=f25e94f8-d9cd-4308-bf48-f01db6049267",
-          "isSupported": false,
-          "networkFamilyName": "evm",
-          "ticker": "avax",
-          "whitePaperPath": "https://www.avalabs.org/whitepapers"
-        },
-        {
-          "about": "Avalanche is a decentralized, open-source proof of stake blockchain with smart contract functionality. AVAX is the native cryptocurrency of the platform.", 
           "blockExplorerURL": "https://snowtrace.io/",
           "chainId": 9000,
-          "chainIdEVM": 43114,
           "coingeckoId": "avalanche-2",
           "decimals": 18,
+          "evmData":{
+            "chainId": 43114,
+            "zeroXSwapUrl": "https://avalanche.api.0x.org/"
+          },
           "fullName": "Avalanche C Chain",
           "hexColor": "#e84142",
           "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/avax.png?alt=media&token=f25e94f8-d9cd-4308-bf48-f01db6049267",
@@ -33,6 +23,9 @@
           "chainId": 9006,
           "color": "#f3ba2f",
           "decimals": 18,
+          "evmData":{
+            "zeroXSwapUrl": "https://bsc.api.0x.org/"
+          },
           "fullName": "Binance Smart Chain",
           "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/ada.png?alt=media&token=82d7a473-b667-4b83-b127-6bfc4125ec2e",
           "isSupported": false,
@@ -81,9 +74,12 @@
           "about": "Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.",
           "blockExplorerURL": "https://etherscan.io/",
           "chainId": 60,
-          "chainIdEVM": 1,
           "coingeckoId": "ethereum",
           "decimals": 18,
+          "evmData":{
+            "chainId": 1,
+            "zeroXSwapUrl": "https://api.0x.org/"
+          },
           "fullName": "Ethereum",
           "hexColor": "#716b94",
           "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
@@ -122,9 +118,12 @@
           "about": "Polygon is a secondary scaling solution for the Ethereum blockchain. MATIC is an Ethereum token that powers the Polygon network.",
           "blockExplorerURL": "https://polygonscan.com/",
           "chainId": 966,
-          "chainIdEVM": 137,
           "coingeckoId": "matic-network",
           "decimals": 18,
+          "evmData":{
+            "chainId": 137,
+            "zeroXSwapUrl": "https://polygon.api.0x.org/"
+          },
           "fullName": "Polygon",
           "hexColor": "#A020F0",
           "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/matic.png?alt=media&token=6e042b07-2476-442b-b207-c1562f64bf5d",
@@ -137,9 +136,12 @@
           "about": "Ropsten Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
           "blockExplorerURL": "https://ropsten.etherscan.io/",
           "chainId": 60,
-          "chainIdEVM": 3,
           "coingeckoId": "ethereum",
           "decimals": 18,
+          "evmData":{
+            "chainId": 3,
+            "zeroXSwapUrl": "https://ropsten.api.0x.org/"
+          },
           "fullName": "Ropsten Ethereum",
           "hexColor": "#716b94",
           "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
@@ -153,9 +155,11 @@
             "about": "Arbitrum allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Arbitrum second layer chain.",
             "blockExplorerURL": "https://arbiscan.io/",
             "chainId": 60,
-            "chainIdEVM": 42161,
             "coingeckoId": "ethereum",
             "decimals": 18,
+            "evmData":{
+              "chainId": 42161
+            },
             "fullName": "Arbitrum Ethereum",
             "hexColor": "#716b94",
             "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/arbitrum.png?alt=media&token=b27a2b99-411b-447c-a343-a79c447de5a9",
