@@ -89,6 +89,25 @@
           "whitePaperPath": "https://ethereum.org/en/whitepaper/"
         },
         {
+          "about": "Goerli Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
+          "blockExplorerURL": "https://goerli.etherscan.io/",
+          "chainId": 60,
+          "coingeckoId": "ethereum",
+          "decimals": 18,
+          "evmData":{
+            "chainId": 5,
+            "zeroXSwapUrl": "https://goerli.api.0x.org/"
+          },
+          "fullName": "Goerli Ethereum",
+          "hexColor": "#716b94",
+          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
+          "isTestnet": true,
+          "isSupported": true,
+          "networkFamilyName": "evm",
+          "ticker": "eth(goerli)",
+          "whitePaperPath": "https://ethereum.org/en/whitepaper/"
+        },
+        {
          "about": "LTC is the native cryptocurrency of Litecoin, an open-source blockchain project whose code is copied from Bitcoin’s. Touted as the “silver to bitcoin’s gold,” Litecoin was developed to have much faster transaction speeds than Bitcoin, as well as to be more scalable.",
          "chainId": 2,
          "decimals": 8,
@@ -167,6 +186,25 @@
             "networkFamilyName": "evm",
             "ticker": "eth(arbitrum)",
             "whitePaperPath": "https://ethereum.org/en/whitepaper/"
+        },
+        {
+          "about": "Sepolia Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
+          "blockExplorerURL": "https://goerli.etherscan.io/",
+          "chainId": 60,
+          "coingeckoId": "ethereum",
+          "decimals": 18,
+          "evmData":{
+            "chainId": 11155111,
+            "zeroXSwapUrl": "https://goerli.api.0x.org/"
+          },
+          "fullName": "Sepolia Ethereum",
+          "hexColor": "#716b94",
+          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
+          "isTestnet": true,
+          "isSupported": true,
+          "networkFamilyName": "evm",
+          "ticker": "eth(sepolia)",
+          "whitePaperPath": "https://ethereum.org/en/whitepaper/"
         },
         {
           "about": "Solana is a decentralized blockchain built to enable scalable, user-friendly apps for the world.",
