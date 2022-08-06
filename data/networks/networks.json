@@ -1,5 +1,22 @@
 {
     "networks":[
+          {
+            "about": "Arbitrum allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Arbitrum second layer chain.",
+            "blockExplorerURL": "https://arbiscan.io/",
+            "chainId": 60,
+            "coingeckoId": "ethereum",
+            "decimals": 18,
+            "evmData":{
+              "chainId": 42161
+            },
+            "fullName": "Arbitrum Ethereum",
+            "hexColor": "#716b94",
+            "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/arbitrum.png?alt=media&token=b27a2b99-411b-447c-a343-a79c447de5a9",
+            "isSupported": true,
+            "networkFamilyName": "evm",
+            "ticker": "eth(arbitrum)",
+            "whitePaperPath": "https://ethereum.org/en/whitepaper/"
+        },
         {
           "about": "Avalanche is a decentralized, open-source proof of stake blockchain with smart contract functionality. AVAX is the native cryptocurrency of the platform.", 
           "blockExplorerURL": "https://snowtrace.io/",
@@ -134,6 +151,20 @@
           "whitePaperPath": "https://near.org/papers/the-official-near-white-paper/"
         },
         {
+          "about": "Optimism allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Optimism second layer chain.",
+          "blockExplorerURL": "https://optimistic.etherscan.io/",
+          "chainId": 10,
+          "coingeckoId": "ethereum",
+          "decimals": 18,
+          "fullName": "Optimism",
+          "hexColor": "#FD1302",
+          "iconPath": "https://assets.coingecko.com/coins/images/25244/small/OP.jpeg?1651026279",
+          "isSupported": true,
+          "networkFamilyName": "evm",
+          "ticker": "eth(optimism)",
+          "whitePaperPath": "https://community.optimism.io/docs/how-optimism-works/"
+        },
+        {
           "about": "Polygon is a secondary scaling solution for the Ethereum blockchain. MATIC is an Ethereum token that powers the Polygon network.",
           "blockExplorerURL": "https://polygonscan.com/",
           "chainId": 966,
@@ -169,23 +200,6 @@
           "networkFamilyName": "evm",
           "ticker": "eth(ropsten)",
           "whitePaperPath": "https://ethereum.org/en/whitepaper/"
-        },
-        {
-            "about": "Arbitrum allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Arbitrum second layer chain.",
-            "blockExplorerURL": "https://arbiscan.io/",
-            "chainId": 60,
-            "coingeckoId": "ethereum",
-            "decimals": 18,
-            "evmData":{
-              "chainId": 42161
-            },
-            "fullName": "Arbitrum Ethereum",
-            "hexColor": "#716b94",
-            "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/arbitrum.png?alt=media&token=b27a2b99-411b-447c-a343-a79c447de5a9",
-            "isSupported": true,
-            "networkFamilyName": "evm",
-            "ticker": "eth(arbitrum)",
-            "whitePaperPath": "https://ethereum.org/en/whitepaper/"
         },
         {
           "about": "Sepolia Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
