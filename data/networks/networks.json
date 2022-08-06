@@ -153,9 +153,13 @@
         {
           "about": "Optimism allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Optimism second layer chain.",
           "blockExplorerURL": "https://optimistic.etherscan.io/",
-          "chainId": 10,
+          "chainId": 614,
           "coingeckoId": "ethereum",
           "decimals": 18,
+          "evmData":{
+            "chainId": 10,
+            "zeroXSwapUrl": "https://optimism.api.0x.org/"
+          },
           "fullName": "Optimism",
           "hexColor": "#FD1302",
           "iconPath": "https://assets.coingecko.com/coins/images/25244/small/OP.jpeg?1651026279",
@@ -215,7 +219,7 @@
           "hexColor": "#716b94",
           "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
           "isTestnet": true,
-          "isSupported": true,
+          "isSupported": false,
           "networkFamilyName": "evm",
           "ticker": "eth(sepolia)",
           "whitePaperPath": "https://ethereum.org/en/whitepaper/"
