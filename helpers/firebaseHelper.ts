@@ -3,17 +3,20 @@ import { getStorage } from "firebase/storage";
 import { collection, doc, DocumentData, DocumentReference, getDocs, getFirestore, setDoc} from 'firebase/firestore';
 import { firebaseConfig } from "../secrets";
 import { NetworkDb, TokenData } from "../models";
+import { getAuth, inMemoryPersistence } from "firebase/auth";
 // set your own firebase secrets to access db
 
 
 
 const firebaseApp = initializeApp(firebaseConfig);
+const firebaseAuth = getAuth(firebaseApp);
+firebaseAuth.setPersistence(inMemoryPersistence);
 const firestore = getFirestore(firebaseApp);
 
 // Get a reference to the storage service, which is used to create references in your storage bucket
 const storage = getStorage(firebaseApp);
 export  {
-    firestore, storage, firebaseApp as default
+    firestore, firebaseAuth, storage, firebaseApp as default
 };
 
 
