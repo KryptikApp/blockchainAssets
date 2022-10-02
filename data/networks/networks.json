@@ -187,25 +187,6 @@
           "whitePaperPath": "https://polygon.technology/lightpaper-polygon.pdf"
         },
         {
-          "about": "Ropsten Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
-          "blockExplorerURL": "https://ropsten.etherscan.io/",
-          "chainId": 60,
-          "coingeckoId": "ethereum",
-          "decimals": 18,
-          "evmData":{
-            "chainId": 3,
-            "zeroXSwapUrl": "https://ropsten.api.0x.org/"
-          },
-          "fullName": "Ropsten Ethereum",
-          "hexColor": "#716b94",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
-          "isTestnet": true,
-          "isSupported": true,
-          "networkFamilyName": "evm",
-          "ticker": "eth(ropsten)",
-          "whitePaperPath": "https://ethereum.org/en/whitepaper/"
-        },
-        {
           "about": "Sepolia Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
           "blockExplorerURL": "https://goerli.etherscan.io/",
           "chainId": 60,
