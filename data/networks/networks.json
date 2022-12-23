@@ -1,253 +1,261 @@
 {
-    "networks":[
-          {
-            "about": "Arbitrum allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Arbitrum second layer chain.",
-            "blockExplorerURL": "https://arbiscan.io/",
-            "chainId": 60,
-            "coingeckoId": "ethereum",
-            "decimals": 18,
-            "evmData":{
-              "chainId": 42161
-            },
-            "fullName": "Arbitrum Ethereum",
-            "hexColor": "#716b94",
-            "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/arbitrum.png?alt=media&token=b27a2b99-411b-447c-a343-a79c447de5a9",
-            "isSupported": true,
-            "networkFamilyName": "evm",
-            "ticker": "eth(arbitrum)",
-            "whitePaperPath": "https://ethereum.org/en/whitepaper/"
-        },
-        {
-          "about": "Avalanche is a decentralized, open-source proof of stake blockchain with smart contract functionality. AVAX is the native cryptocurrency of the platform.", 
-          "blockExplorerURL": "https://snowtrace.io/",
-          "chainId": 9000,
-          "coingeckoId": "avalanche-2",
-          "decimals": 18,
-          "evmData":{
-            "chainId": 43114,
-            "zeroXSwapUrl": "https://avalanche.api.0x.org/"
-          },
-          "fullName": "Avalanche C Chain",
-          "hexColor": "#e84142",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/avax.png?alt=media&token=f25e94f8-d9cd-4308-bf48-f01db6049267",
-          "isSupported": true,
-          "networkFamilyName": "evm",
-          "whitePaperPath": "https://www.avalabs.org/whitepapers",
-          "ticker": "avaxc"
-        },
-        {
-          "about": "Binance Chain is a blockchain project initiated by Binance and has since involved a whole community of Binancians.",
-          "chainId": 9006,
-          "color": "#f3ba2f",
-          "decimals": 18,
-          "evmData":{
-            "zeroXSwapUrl": "https://bsc.api.0x.org/"
-          },
-          "fullName": "Binance Smart Chain",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/ada.png?alt=media&token=82d7a473-b667-4b83-b127-6bfc4125ec2e",
-          "isSupported": false,
-          "networkFamilyName": "evm",
-          "whitePaperPath": "https://www.binance.com/en/blog/all/binance-chain-blockchain-for-exchanging-the-world-304219301536473088",
-          "ticker": "bnb"
-        },
-        {
-          "about": "Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part. Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.",
-          "chainId": 0,
-          "coingeckoId": "bitcoin",
-          "decimals": 18,
-          "fullName": "Bitcoin",
-          "hexColor": "#f2a900",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/btc.png?alt=media&token=d4781608-44f1-4e9d-991d-caedc861a67f",
-          "isSupported": false,
-          "networkFamilyName": "bitcoin",
-          "ticker": "btc",
-          "whitePaperPath": "https://bitcoin.org/bitcoin.pdf"
-        },
-        {
-            "about": "Cardano is a third-generation, decentralized proof-of-stake blockchain platform designed to be a more efficient alternative to proof-of-work networks.",    
-            "chainId": 1815,
-            "decimals": 6,
-            "hexColor": "#2a71d0",
-            "fullName": "Cardano",
-            "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/ada.png?alt=media&token=82d7a473-b667-4b83-b127-6bfc4125ec2e",
-            "isSupported": false,
-            "networkFamilyName": "bitcoin",
-            "ticker": "ada",
-            "whitePaperPath": "https://why.cardano.org/en/introduction/motivation/"
-          },
-        {
-          "about": "Dogecoin is a cryptocurrency created by software engineers Billy Markus and Jackson Palmer, who decided to create a payment system as a joke, making fun of the wild speculation in cryptocurrencies at the time.",
-          "chainId": 3,
-          "decimals": 8,
-          "fullName": "Dogecoin",
-          "hexColor": "#e1b303",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/doge.png?alt=media&token=1eb85e2b-56c5-4c14-a228-55c933fc0957",
-          "isSupported": false,
-          "networkFamilyName": "bitcoin",
-          "ticker": "doge",
-          "whitePaperPath": "https://github.com/dogecoin/dogecoin/blob/master/README.md"
-        },
-        {
-          "about": "Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.",
-          "blockExplorerURL": "https://etherscan.io/",
-          "chainId": 60,
-          "coingeckoId": "ethereum",
-          "decimals": 18,
-          "evmData":{
-            "chainId": 1,
-            "zeroXSwapUrl": "https://api.0x.org/"
-          },
-          "fullName": "Ethereum",
-          "hexColor": "#716b94",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
-          "isSupported": true,
-          "networkFamilyName": "evm",
-          "ticker": "eth",
-          "whitePaperPath": "https://ethereum.org/en/whitepaper/"
-        },
-        {
-          "about": "Goerli Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
-          "blockExplorerURL": "https://goerli.etherscan.io/",
-          "chainId": 60,
-          "coingeckoId": "ethereum",
-          "decimals": 18,
-          "evmData":{
-            "chainId": 5,
-            "zeroXSwapUrl": "https://goerli.api.0x.org/"
-          },
-          "fullName": "Goerli Ethereum",
-          "hexColor": "#716b94",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
-          "isTestnet": true,
-          "isSupported": true,
-          "networkFamilyName": "evm",
-          "ticker": "eth(goerli)",
-          "whitePaperPath": "https://ethereum.org/en/whitepaper/"
-        },
-        {
-         "about": "LTC is the native cryptocurrency of Litecoin, an open-source blockchain project whose code is copied from Bitcoin’s. Touted as the “silver to bitcoin’s gold,” Litecoin was developed to have much faster transaction speeds than Bitcoin, as well as to be more scalable.",
-         "chainId": 2,
-         "decimals": 8,
-         "fullName": "Litecoin",
-         "hexColor": "#00aeff",
-         "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/ltc.png?alt=media&token=e01d2fcc-bd5e-42d5-8e70-11b2f8f61a53",
-         "isSupported": false,
-         "networkFamilyName": "bitcoin",
-         "ticker": "ltc",
-         "whitePaperPath": "https://crebaco.com/planner/admin/uploads/whitepapers/8152776LITECOIN.pdf"
-        },
-        {
-          "about": "NEAR is a development platform built on a sharded, proof-of-stake blockchain designed for usability.",
-          "blockExplorerURL": "https://explorer.mainnet.near.org/",
-          "chainId": 397,
-          "coingeckoId": "near",
-          "decimals": 24,
-          "fullName": "Near Protocol",
-          "hexColor": "#262626",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/near%20logo.png?alt=media&token=244c738f-e138-4e28-bf23-c991b99050c7",
-          "isSupported": true,
-          "networkFamilyName": "near",
-          "ticker": "near",
-          "whitePaperPath": "https://near.org/papers/the-official-near-white-paper/"
-        },
-        {
-          "about": "Optimism allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Optimism second layer chain.",
-          "blockExplorerURL": "https://optimistic.etherscan.io/",
-          "chainId": 614,
-          "coingeckoId": "ethereum",
-          "decimals": 18,
-          "evmData":{
-            "chainId": 10,
-            "zeroXSwapUrl": "https://optimism.api.0x.org/"
-          },
-          "fullName": "Optimism",
-          "hexColor": "#FD1302",
-          "iconPath": "https://assets.coingecko.com/coins/images/25244/small/OP.jpeg?1651026279",
-          "isSupported": true,
-          "networkFamilyName": "evm",
-          "ticker": "eth(optimism)",
-          "whitePaperPath": "https://community.optimism.io/docs/how-optimism-works/"
-        },
-        {
-          "about": "Polygon is a secondary scaling solution for the Ethereum blockchain. MATIC is an Ethereum token that powers the Polygon network.",
-          "blockExplorerURL": "https://polygonscan.com/",
-          "chainId": 966,
-          "coingeckoId": "matic-network",
-          "decimals": 18,
-          "evmData":{
-            "chainId": 137,
-            "zeroXSwapUrl": "https://polygon.api.0x.org/"
-          },
-          "fullName": "Polygon",
-          "hexColor": "#A020F0",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/matic.png?alt=media&token=6e042b07-2476-442b-b207-c1562f64bf5d",
-          "isSupported": true,
-          "networkFamilyName": "evm",
-          "ticker": "matic",
-          "whitePaperPath": "https://polygon.technology/lightpaper-polygon.pdf"
-        },
-        {
-          "about": "Sepolia Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
-          "blockExplorerURL": "https://goerli.etherscan.io/",
-          "chainId": 60,
-          "coingeckoId": "ethereum",
-          "decimals": 18,
-          "evmData":{
-            "chainId": 11155111,
-            "zeroXSwapUrl": "https://goerli.api.0x.org/"
-          },
-          "fullName": "Sepolia Ethereum",
-          "hexColor": "#716b94",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
-          "isTestnet": true,
-          "isSupported": false,
-          "networkFamilyName": "evm",
-          "ticker": "eth(sepolia)",
-          "whitePaperPath": "https://ethereum.org/en/whitepaper/"
-        },
-        {
-          "about": "Solana is a decentralized blockchain built to enable scalable, user-friendly apps for the world.",
-          "blockExplorerURL": "https://solscan.io/",
-          "chainId": 501,
-          "coingeckoId": "solana",
-          "decimals": 18,
-          "fullName": "Solana",
-          "hexColor": "#00FFA3",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/sol.png?alt=media&token=6d6e8337-79bb-45c6-bb31-47e49c7ce763",
-          "isSupported": true,
-          "networkFamilyName": "solana",
-          "ticker": "sol",
-          "whitePaperPath": "https://solana.com/solana-whitepaper.pdf"
-        },
-        {
-          "about": "Solana Devnet is a playground for Solana developers to test applications. Devnet tokens have no value.",
-          "blockExplorerURL": "https://explorer.solana.com/?cluster=devnet/",
-          "chainId": 501,
-          "coingeckoId": "solana",
-          "decimals": 18,
-          "fullName": "Solana Devnet",
-          "hexColor": "#00FFA3",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/sol2.png?alt=media&token=c0e8e07b-f195-4819-9cbd-2e53afe70128",
-          "isSupported": true,
-          "isTestnet": true,
-          "networkFamilyName": "solana",
-          "ticker": "sol(devnet)",
-          "whitePaperPath": "https://solana.com/solana-whitepaper.pdf"
-        },
-        {
-          "about": "Solana Testnet is a testing platform for modifications to the main Solana blockchain. Testnet tokens have no value.",
-          "blockExplorerURL": "https://explorer.solana.com/?cluster=testnet/",
-          "chainId": 501,
-          "coingeckoId": "solana",
-          "decimals": 9,
-          "fullName": "Solana Testnet",
-          "hexColor": "#00FFA3",
-          "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/sol2.png?alt=media&token=c0e8e07b-f195-4819-9cbd-2e53afe70128",
-          "isSupported": true,
-          "isTestnet": true,
-          "networkFamilyName": "solana",
-          "ticker": "sol(testnet)",
-          "whitePaperPath": "https://solana.com/solana-whitepaper.pdf"
-        }
-      ]
+  "networks": [
+    {
+      "about": "Arbitrum allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Arbitrum second layer chain.",
+      "blockchainId": "",
+      "blockExplorerURL": "https://arbiscan.io/",
+      "chainId": 60,
+      "coingeckoId": "ethereum",
+      "decimals": 18,
+      "evmData": {
+        "chainId": 42161
+      },
+      "fullName": "Arbitrum Ethereum",
+      "hexColor": "#716b94",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/arbitrum.png?alt=media&token=b27a2b99-411b-447c-a343-a79c447de5a9",
+      "isSupported": true,
+      "networkFamilyName": "evm",
+      "ticker": "eth(arbitrum)",
+      "whitePaperPath": "https://ethereum.org/en/whitepaper/"
+    },
+    {
+      "about": "Avalanche is a decentralized, open-source proof of stake blockchain with smart contract functionality. AVAX is the native cryptocurrency of the platform.",
+      "blockchainId": "eip155:43114",
+      "blockExplorerURL": "https://snowtrace.io/",
+      "chainId": 9000,
+      "coingeckoId": "avalanche-2",
+      "decimals": 18,
+      "evmData": {
+        "chainId": 43114,
+        "zeroXSwapUrl": "https://avalanche.api.0x.org/"
+      },
+      "fullName": "Avalanche C Chain",
+      "hexColor": "#e84142",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/avax.png?alt=media&token=f25e94f8-d9cd-4308-bf48-f01db6049267",
+      "isSupported": true,
+      "networkFamilyName": "evm",
+      "whitePaperPath": "https://www.avalabs.org/whitepapers",
+      "ticker": "avaxc"
+    },
+    {
+      "about": "Binance Chain is a blockchain project initiated by Binance and has since involved a whole community of Binancians.",
+      "chainId": 9006,
+      "color": "#f3ba2f",
+      "decimals": 18,
+      "evmData": {
+        "zeroXSwapUrl": "https://bsc.api.0x.org/"
+      },
+      "fullName": "Binance Smart Chain",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/ada.png?alt=media&token=82d7a473-b667-4b83-b127-6bfc4125ec2e",
+      "isSupported": false,
+      "networkFamilyName": "evm",
+      "whitePaperPath": "https://www.binance.com/en/blog/all/binance-chain-blockchain-for-exchanging-the-world-304219301536473088",
+      "ticker": "bnb"
+    },
+    {
+      "about": "Bitcoin uses peer-to-peer technology to operate with no central authority or banks; managing transactions and the issuing of bitcoins is carried out collectively by the network. Bitcoin is open-source; its design is public, nobody owns or controls Bitcoin and everyone can take part. Through many of its unique properties, Bitcoin allows exciting uses that could not be covered by any previous payment system.",
+      "chainId": 0,
+      "coingeckoId": "bitcoin",
+      "decimals": 18,
+      "fullName": "Bitcoin",
+      "hexColor": "#f2a900",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/btc.png?alt=media&token=d4781608-44f1-4e9d-991d-caedc861a67f",
+      "isSupported": false,
+      "networkFamilyName": "bitcoin",
+      "ticker": "btc",
+      "whitePaperPath": "https://bitcoin.org/bitcoin.pdf"
+    },
+    {
+      "about": "Cardano is a third-generation, decentralized proof-of-stake blockchain platform designed to be a more efficient alternative to proof-of-work networks.",
+      "chainId": 1815,
+      "decimals": 6,
+      "hexColor": "#2a71d0",
+      "fullName": "Cardano",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/ada.png?alt=media&token=82d7a473-b667-4b83-b127-6bfc4125ec2e",
+      "isSupported": false,
+      "networkFamilyName": "bitcoin",
+      "ticker": "ada",
+      "whitePaperPath": "https://why.cardano.org/en/introduction/motivation/"
+    },
+    {
+      "about": "Dogecoin is a cryptocurrency created by software engineers Billy Markus and Jackson Palmer, who decided to create a payment system as a joke, making fun of the wild speculation in cryptocurrencies at the time.",
+      "chainId": 3,
+      "decimals": 8,
+      "fullName": "Dogecoin",
+      "hexColor": "#e1b303",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/doge.png?alt=media&token=1eb85e2b-56c5-4c14-a228-55c933fc0957",
+      "isSupported": false,
+      "networkFamilyName": "bitcoin",
+      "ticker": "doge",
+      "whitePaperPath": "https://github.com/dogecoin/dogecoin/blob/master/README.md"
+    },
+    {
+      "about": "Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.",
+      "blockchainId": "eip155:1",
+      "blockExplorerURL": "https://etherscan.io/",
+      "chainId": 60,
+      "coingeckoId": "ethereum",
+      "decimals": 18,
+      "evmData": {
+        "chainId": 1,
+        "zeroXSwapUrl": "https://api.0x.org/"
+      },
+      "fullName": "Ethereum",
+      "hexColor": "#716b94",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
+      "isSupported": true,
+      "networkFamilyName": "evm",
+      "ticker": "eth",
+      "whitePaperPath": "https://ethereum.org/en/whitepaper/"
+    },
+    {
+      "about": "Goerli Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
+      "blockchainId": "eip155:5",
+      "blockExplorerURL": "https://goerli.etherscan.io/",
+      "chainId": 60,
+      "coingeckoId": "ethereum",
+      "decimals": 18,
+      "evmData": {
+        "chainId": 5,
+        "zeroXSwapUrl": "https://goerli.api.0x.org/"
+      },
+      "fullName": "Goerli Ethereum",
+      "hexColor": "#716b94",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
+      "isTestnet": true,
+      "isSupported": true,
+      "networkFamilyName": "evm",
+      "ticker": "eth(goerli)",
+      "whitePaperPath": "https://ethereum.org/en/whitepaper/"
+    },
+    {
+      "about": "LTC is the native cryptocurrency of Litecoin, an open-source blockchain project whose code is copied from Bitcoin’s. Touted as the “silver to bitcoin’s gold,” Litecoin was developed to have much faster transaction speeds than Bitcoin, as well as to be more scalable.",
+      "chainId": 2,
+      "decimals": 8,
+      "fullName": "Litecoin",
+      "hexColor": "#00aeff",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/ltc.png?alt=media&token=e01d2fcc-bd5e-42d5-8e70-11b2f8f61a53",
+      "isSupported": false,
+      "networkFamilyName": "bitcoin",
+      "ticker": "ltc",
+      "whitePaperPath": "https://crebaco.com/planner/admin/uploads/whitepapers/8152776LITECOIN.pdf"
+    },
+    {
+      "about": "NEAR is a development platform built on a sharded, proof-of-stake blockchain designed for usability.",
+      "blockExplorerURL": "https://explorer.mainnet.near.org/",
+      "chainId": 397,
+      "coingeckoId": "near",
+      "decimals": 24,
+      "fullName": "Near Protocol",
+      "hexColor": "#262626",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/near%20logo.png?alt=media&token=244c738f-e138-4e28-bf23-c991b99050c7",
+      "isSupported": true,
+      "networkFamilyName": "near",
+      "ticker": "near",
+      "whitePaperPath": "https://near.org/papers/the-official-near-white-paper/"
+    },
+    {
+      "about": "Optimism allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Optimism second layer chain.",
+      "blockchainId": "eip155:10",
+      "blockExplorerURL": "https://optimistic.etherscan.io/",
+      "chainId": 614,
+      "coingeckoId": "ethereum",
+      "decimals": 18,
+      "evmData": {
+        "chainId": 10,
+        "zeroXSwapUrl": "https://optimism.api.0x.org/"
+      },
+      "fullName": "Optimism",
+      "hexColor": "#FD1302",
+      "iconPath": "https://assets.coingecko.com/coins/images/25244/small/OP.jpeg?1651026279",
+      "isSupported": true,
+      "networkFamilyName": "evm",
+      "ticker": "eth(optimism)",
+      "whitePaperPath": "https://community.optimism.io/docs/how-optimism-works/"
+    },
+    {
+      "about": "Polygon is a secondary scaling solution for the Ethereum blockchain. MATIC is an Ethereum token that powers the Polygon network.",
+      "blockchainId": "eip155:137",
+      "blockExplorerURL": "https://polygonscan.com/",
+      "chainId": 966,
+      "coingeckoId": "matic-network",
+      "decimals": 18,
+      "evmData": {
+        "chainId": 137,
+        "zeroXSwapUrl": "https://polygon.api.0x.org/"
+      },
+      "fullName": "Polygon",
+      "hexColor": "#A020F0",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/matic.png?alt=media&token=6e042b07-2476-442b-b207-c1562f64bf5d",
+      "isSupported": true,
+      "networkFamilyName": "evm",
+      "ticker": "matic",
+      "whitePaperPath": "https://polygon.technology/lightpaper-polygon.pdf"
+    },
+    {
+      "about": "Sepolia Ethereum is a test network for the Ethereum blockchain. The network is primarily used to test and develop new applications.",
+      "blockExplorerURL": "https://goerli.etherscan.io/",
+      "chainId": 60,
+      "coingeckoId": "ethereum",
+      "decimals": 18,
+      "evmData": {
+        "chainId": 11155111,
+        "zeroXSwapUrl": "https://goerli.api.0x.org/"
+      },
+      "fullName": "Sepolia Ethereum",
+      "hexColor": "#716b94",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
+      "isTestnet": true,
+      "isSupported": false,
+      "networkFamilyName": "evm",
+      "ticker": "eth(sepolia)",
+      "whitePaperPath": "https://ethereum.org/en/whitepaper/"
+    },
+    {
+      "about": "Solana is a decentralized blockchain built to enable scalable, user-friendly apps for the world.",
+      "blockchainId": "solana:4sGjMW1sUnHzSxGspuhpqLDx6wiyjNtZ",
+      "blockExplorerURL": "https://solscan.io/",
+      "chainId": 501,
+      "coingeckoId": "solana",
+      "decimals": 18,
+      "fullName": "Solana",
+      "hexColor": "#00FFA3",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/sol.png?alt=media&token=6d6e8337-79bb-45c6-bb31-47e49c7ce763",
+      "isSupported": true,
+      "networkFamilyName": "solana",
+      "ticker": "sol",
+      "whitePaperPath": "https://solana.com/solana-whitepaper.pdf"
+    },
+    {
+      "about": "Solana Devnet is a playground for Solana developers to test applications. Devnet tokens have no value.",
+      "blockchainId": "solana:8E9rvCKLFQia2Y35HXjjpWzj8weVo44K",
+      "blockExplorerURL": "https://explorer.solana.com/?cluster=devnet/",
+      "chainId": 501,
+      "coingeckoId": "solana",
+      "decimals": 18,
+      "fullName": "Solana Devnet",
+      "hexColor": "#00FFA3",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/sol2.png?alt=media&token=c0e8e07b-f195-4819-9cbd-2e53afe70128",
+      "isSupported": true,
+      "isTestnet": true,
+      "networkFamilyName": "solana",
+      "ticker": "sol(devnet)",
+      "whitePaperPath": "https://solana.com/solana-whitepaper.pdf"
+    },
+    {
+      "about": "Solana Testnet is a testing platform for modifications to the main Solana blockchain. Testnet tokens have no value.",
+      "blockExplorerURL": "https://explorer.solana.com/?cluster=testnet/",
+      "chainId": 501,
+      "coingeckoId": "solana",
+      "decimals": 9,
+      "fullName": "Solana Testnet",
+      "hexColor": "#00FFA3",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/sol2.png?alt=media&token=c0e8e07b-f195-4819-9cbd-2e53afe70128",
+      "isSupported": true,
+      "isTestnet": true,
+      "networkFamilyName": "solana",
+      "ticker": "sol(testnet)",
+      "whitePaperPath": "https://solana.com/solana-whitepaper.pdf"
+    }
+  ]
 }
