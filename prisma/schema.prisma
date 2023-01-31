@@ -1,0 +1,100 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model NetworkDb {
+  id               Int       @id @default(autoincrement())
+  about            String
+  blockExplorerURL String
+  blockchainId     String
+  chainId          Float
+  coingeckoId      String
+  contracts        TokenContract[]
+  decimals         Float
+  hexColor         String
+  fullName         String @unique
+  iconPath         String
+  isSupported      Boolean
+  isTestnet        Boolean?
+  networkFamilyName String
+  ticker           String @unique
+  provider          String
+  whitePaperPath   String
+  zeroXSwapUrl String?
+}
+
+model OneTimeToken {
+  id         String   @id @unique
+  userId     String
+  code       String
+  expiration DateTime
+  User       User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Profile {
+  id         Int     @id @default(autoincrement())
+  name       String?
+  bio        String?
+  userId     String  @unique
+  avatarPath String?
+  User       User    @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model RefreshToken {
+  id          String   @id @unique
+  hashedToken String
+  userId      String
+  revoked     Boolean  @default(false)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime
+  User        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model RemoteShare {
+  id        Int      @id @default(autoincrement())
+  share     String
+  userId    String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime
+  User      User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model TokenDb {
+  id          Int         @id @default(autoincrement())
+  coingeckoId String
+  description String
+  decimals Float
+  link        String
+  hexColor    String
+  logoURI     String
+  name        String @unique
+  ticker      String @unique
+  tags        String[]
+  contracts TokenContract[]
+}
+
+model TokenContract{
+  id          Int         @id @default(autoincrement())
+  address String
+  contractId String @unique
+  networkId   Int
+  network    NetworkDb @relation(fields: [networkId], references: [id], onDelete: Cascade)
+  tokenId Int
+  token TokenDb @relation(fields: [tokenId], references: [id], onDelete: Cascade)
+}
+
+model User {
+  id           String         @id @unique
+  email        String         @unique
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime
+  OneTimeToken OneTimeToken[]
+  Profile      Profile?
+  RefreshToken RefreshToken[]
+  RemoteShare  RemoteShare?
+}
