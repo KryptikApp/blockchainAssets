@@ -1,48 +1,46 @@
-export interface ChainData {
-  chainId: number;
-  ticker: string;
-  address: string;
-}
-
 export interface TokenData {
-  name: string;
-  symbol: string;
   coingeckoId: string;
+  chainData: ChainData[];
+  description: string;
   decimals: number;
   hexColor: string;
-  chainData: ChainData[];
+  link: string;
   logoURI: string;
-  extensions: {
-    link: string;
-    description: string;
-  };
+  name: string;
   tags: string[];
+  ticker: string;
 }
+
+export interface ChainData {
+  address: string;
+  networkTicker: string;
+}
+
+export type NetworkDbTemp = {
+  id: number;
+  about: string;
+  chainId: number;
+  decimals: number;
+  fullName: string;
+  iconPath: string;
+  isSupported: boolean;
+  networkFamily: string;
+  whitePaperPath: string;
+  blockExplorerURL: string;
+  zeroXSwapUrl?: string;
+  provider: string;
+  blockchainId: string;
+  ticker: string;
+};
+
+export type ContractData = {
+  address: string;
+  networkTicker: string;
+};
 
 export interface EVMData {
   chainId: number;
   zeroXSwapUrl?: string;
-}
-
-export interface NetworkDb {
-  fullName: string;
-  ticker: string;
-  iconPath: string;
-  isSupported: boolean;
-  about: string;
-  whitePaperPath: string;
-  chainId: number;
-  evmData?: EVMData;
-  decimals: number;
-  hexColor: string;
-  dateCreated: Date;
-  provider: string;
-  networkFamilyName: string;
-  coingeckoId: string;
-  isTestnet: boolean;
-  blockExplorerURL: string;
-  // chain agnostic id
-  blockchainId: string;
 }
 
 export interface NetworkSecretParameters {
