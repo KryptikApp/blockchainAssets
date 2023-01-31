@@ -1,6 +1,9 @@
-export interface TokenData {
-  coingeckoId: string;
+export interface TokenData extends TokenUpload {
   chainData: ChainData[];
+}
+
+export interface TokenUpload {
+  coingeckoId: string;
   description: string;
   decimals: number;
   hexColor: string;
