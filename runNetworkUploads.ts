@@ -1,19 +1,16 @@
 // a file that batches all uploads
-import { onAuthStateChanged } from "firebase/auth";
-import { loginToAccount } from "./helpers/authentication";
-import { firebaseAuth } from "./helpers/firebaseHelper";
 import { uploadNetworkData } from "./helpers/uploadToDb";
 
-const uploadNetworks = async function (): Promise<boolean> {
+export async function uploadNetworks(): Promise<boolean> {
   try {
     await uploadNetworkData();
     return true;
   } catch (e) {
     return false;
   }
-};
+}
 
-uploadNetworks().then(() => {
+uploadNetworks().then((res) => {
   console.log("FINISHED UPLOADING NETWORK DATA");
   console.log("   ---------   ");
 });

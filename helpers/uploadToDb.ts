@@ -1,8 +1,10 @@
 import { addNetworkSecretData } from "./utils";
 
 import networkJson from "../data/networks/networks.json";
+import tokenJson from "../data/tokens/tokens.json";
 import { NetworkDb } from "@prisma/client";
-import { addManyNetworks } from "../prisma/script";
+import { addManyNetworks, addManyTokens } from "../prisma/script";
+import { TokenData } from "../models";
 
 export const uploadNetworkData = async function () {
   let networkDataArray: { networks: NetworkDb[] } = JSON.parse(
@@ -16,13 +18,10 @@ export const uploadNetworkData = async function () {
   const res = await addManyNetworks(networks);
 };
 
-// export const uploadAllTokenData = async function () {
-
-//   let tokenDataArray: { tokens: TokenData[] } = JSON.parse(
-//     JSON.stringify(tokenJson)
-//   );
-//   for (const tokenData of tokenDataArray.tokens) {
-//     console.log(`Uploading token data for ${tokenData.name}...`);
-//     console.log(`${tokenData.ticker} upload complete`);
-//   }
-// };
+export async function uploadAllTokenData() {
+  let tokenDataArray: { tokens: TokenData[] } = JSON.parse(
+    JSON.stringify(tokenJson)
+  );
+  const tokens = tokenDataArray.tokens;
+  const res = await addManyTokens(tokens);
+}
