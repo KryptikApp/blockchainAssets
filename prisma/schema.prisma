@@ -14,7 +14,7 @@ model NetworkDb {
   blockchainId     String
   chainId          Float
   coingeckoId      String
-  contracts        Contract[]
+  contracts        TokenContract[]
   decimals         Float
   hexColor         String
   fullName         String @unique
@@ -75,12 +75,13 @@ model TokenDb {
   name        String @unique
   ticker      String @unique
   tags        String[]
-  contracts Contract[]
+  contracts TokenContract[]
 }
 
-model Contract{
+model TokenContract{
   id          Int         @id @default(autoincrement())
   address String
+  contractId String @unique
   networkId   Int
   network    NetworkDb @relation(fields: [networkId], references: [id], onDelete: Cascade)
   tokenId Int
