@@ -1,12 +1,13 @@
 {
   "scripts": {
-    "uploadAll": "npx ts-node-esm runUploads.ts",
-    "uploadNetworks": "npx ts-node-esm runNetworkUploads.ts",
-    "uploadTokens": "npx ts-node-esm runTokenUploads.ts"
+    "uploadNetworks": "npx ts-node-esm runNetworkUploads.ts"
   },
   "dependencies": {
+    "@prisma/client": "^4.9.0",
     "firebase": "^9.8.2",
+    "prisma": "^4.9.0",
     "ts-node": "^10.8.1",
     "typescript": "^4.7.3"
-  }
+  },
+  "devDependencies": {}
 }
