@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "uploadNetworks": "npx ts-node-esm runNetworkUploads.ts"
+    "uploadAll": "npx ts-node-esm runUploads.ts",
+    "uploadNetworks": "npx ts-node-esm runNetworkUploads.ts",
+    "uploadTokens": "npx ts-node-esm runTokenUploads.ts"
   },
   "dependencies": {
     "@prisma/client": "^4.9.0",
