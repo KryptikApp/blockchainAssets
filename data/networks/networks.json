@@ -2,7 +2,7 @@
   "networks": [
     {
       "about": "Arbitrum allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Arbitrum second layer chain.",
-      "blockchainId": "",
+      "blockchainId": "eip155:42161",
       "blockExplorerURL": "https://arbiscan.io/",
       "chainId": 60,
       "coingeckoId": "ethereum",
