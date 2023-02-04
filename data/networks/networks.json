@@ -1,6 +1,21 @@
 {
   "networks": [
     {
+      "about": "Algorand seeks to build on similar projects like Ethereum by improving scalability, security, and reducing time to finality.",
+      "blockchainId": "algorand",
+      "blockExplorerURL": "https://algoscan.app/",
+      "chainId": 283,
+      "coingeckoId": "algorand",
+      "decimals": 6,
+      "fullName": "Algorand",
+      "hexColor": "#15D1D8",
+      "iconPath": "https://assets.coingecko.com/coins/images/4380/small/download.png?1547039725",
+      "isSupported": true,
+      "networkFamilyName": "algorand",
+      "whitePaperPath": "https://www.algorand.com/technology/white-papers",
+      "ticker": "algo"
+    },
+    {
       "about": "Arbitrum allows Ethereum smart contracts to scale by passing messages between smart contracts on the Ethereum main chain and those on the Arbitrum second layer chain.",
       "blockchainId": "eip155:42161",
       "blockExplorerURL": "https://arbiscan.io/",
@@ -9,7 +24,7 @@
       "decimals": 18,
       "fullName": "Arbitrum Ethereum",
       "hexColor": "#716b94",
-      "iconPath": "https://firebasestorag e.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/arbitrum.png?alt=media&token=b27a2b99-411b-447c-a343-a79c447de5a9",
+      "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/arbitrum.png?alt=media&token=b27a2b99-411b-447c-a343-a79c447de5a9",
       "isSupported": true,
       "networkFamilyName": "evm",
       "ticker": "eth(arbitrum)",
