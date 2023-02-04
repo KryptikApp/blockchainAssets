@@ -8,7 +8,6 @@ import {
   buildNetworkDict,
   createContractId,
   formatTokenDataForUpload,
-  getAllChainData,
 } from "../helpers/utils";
 import { ChainData, TokenData, TokenUpload } from "../models";
 
@@ -19,7 +18,7 @@ export async function addManyNetworks(networks: NetworkDb[]) {
 
   for (const network of networks) {
     try {
-      prisma.networkDb.upsert({
+      await prisma.networkDb.upsert({
         where: { ticker: network.ticker },
         create: network,
         update: network,
