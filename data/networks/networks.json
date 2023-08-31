@@ -55,7 +55,7 @@
       "decimals": 18,
       "fullName": "Base",
       "hexColor": "#0066ff",
-      "iconPath": "https://assets.coingecko.com/asset_platforms/images/131/small/base.jpeg?1684806195",
+      "iconPath": "https://bridge.base.org/icons/base.svg",
       "isSupported": true,
       "isTestnet": false,
       "networkFamilyName": "evm",
