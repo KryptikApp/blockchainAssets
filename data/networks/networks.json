@@ -57,9 +57,11 @@
       "hexColor": "#0066ff",
       "iconPath": "https://assets.coingecko.com/asset_platforms/images/131/small/base.jpeg?1684806195",
       "isSupported": true,
+      "isTestnet": false,
       "networkFamilyName": "evm",
       "ticker": "eth(base)",
-      "whitePaperPath": "https://docs.base.org/"
+      "whitePaperPath": "https://docs.base.org/",
+      "zeroXSwapUrl": "https://base.api.0x.org/"
     },
     {
       "about": "Ethereum is the community-run technology powering the cryptocurrency ether (ETH) and thousands of decentralized applications.",
