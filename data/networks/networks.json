@@ -71,7 +71,7 @@
       "coingeckoId": "ethereum",
       "decimals": 18,
       "fullName": "Ethereum",
-      "hexColor": "#37367b",
+      "hexColor": "#dbc9ff",
       "iconPath": "https://firebasestorage.googleapis.com/v0/b/kryptikapp-50542.appspot.com/o/eth.png?alt=media&token=cc1091fb-ef28-4008-a91e-5709818c452e",
       "isSupported": true,
       "networkFamilyName": "evm",
