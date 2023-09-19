@@ -14,8 +14,6 @@ import { ChainData, TokenData, TokenUpload } from "../models";
 const prisma = new PrismaClient();
 
 export async function addManyNetworks(networks: NetworkDb[]) {
-  console.log("here");
-
   for (const network of networks) {
     try {
       await prisma.networkDb.upsert({
